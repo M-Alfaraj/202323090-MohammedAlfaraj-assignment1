@@ -1,7 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <title>Portfolio Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
+    
+    <header>
+    <h1>My Portfolio Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a Computer Science student who is passionate about learning web development to build clean and responsive websites.</p>
+        <p>I'm interested in different aspects of CS and SWE, and I'm always eager to learn and improve my skills.</p>
+        <p><strong>TagLine:</strong> Plan accordingly and use every second wisely</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div>
+            <h3>Project 1: Working Clock Using verilog</h3>
+            <p>A project where a FGA board is used as an alarm clock that was programmed using verilog. Users can change the time or set an alarm using switches that represent a number in binary. When the alarm time is reaches, an led light will turn on</p>
+            <img src="">
+        </div>
+        <div>
+            <h3>Project 2: Shortest Path Algorithm</h3>
+            <p>A project where a secenrio is with a starting point and goal is given as an 2d array with constraints that should be considered, and using breath-first search to find the shortest possible path.</p>
+            <img src="">
+        </div>
+        <div>
+            <h3>Project 3: Creating a game using Javafx</h3>
+            <p>A project about a game that allows the player to control a colored ball. A star would appear in the middle of the screen, and players need to maneuver the ball to the edge with the same color as the ball to score points.</p>
+            <img src="">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label>Name:</label>
+            <input type="text" required><br><br>
+
+            <label>Email:</label>
+            <input type="email"><br><br>
+
+            <label>Message:</label>
+            <textarea rows="4" cols="50" required>Enter text...</textarea><br><br>
+        </form>
+    </section>
 </body>
 </html>

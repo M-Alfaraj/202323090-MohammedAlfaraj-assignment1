@@ -1,1 +1,88 @@
 
+/* set all elements' styles to normal settings*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*body styles*/
+body {
+    margin: 20px auto;
+    width: 1000px;
+    border: 10px solid #0f2530;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+}
+
+/*Navigation Styles*/
+nav {
+    background-color: #0f2530;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 60px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+/*headings styles*/
+
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+h2{
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+/*paragraph styles*/
+p {
+    text-align: center;
+}
+
+/*form content styles*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+textarea {
+    padding: 10px;
+}
+
+button{
+    padding: 15px;
+}
+
+button:hover {
+    background-color: chartreuse;
+}
+
+#contact {
+    justify-items: center;
+    padding-bottom: 100px;
+}

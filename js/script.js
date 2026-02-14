@@ -1,9 +1,14 @@
 function toggleTheme(){
+    //refers to the body element
     const body = document.body;
+
+    //refers to the button in the nav section
     const buttonSymbol = document.getElementById("buttonTheme");
 
+    //toggles to dark mode or lightmode
     body.classList.toggle("darkMode");
 
+    //checks if the mode is darkmode or not and changes the icon based on that
     if(body.classList.contains("darkMode")){
         buttonSymbol.textContent = "☀️";
     }
@@ -13,6 +18,11 @@ function toggleTheme(){
 }
 
 function greetingMessage(){
+    //alert message shows greeting once every session
+    if(sessionStorage.getItem("greetingsDone")) {
+        return;
+    }
+    
     //variables to store the current hour and message for the greetings
     const currentHour = (new Date()).getHours();
     let message = "";
@@ -33,6 +43,9 @@ function greetingMessage(){
     }
 
     alert(message)
+
+    //marks as true to make sure that the message is not shown more than once
+    sessionStorage.setItem("greetingsDone", "true")
 }
 
 window.addEventListener("DOMContentLoaded",greetingMessage)

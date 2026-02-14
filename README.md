@@ -10,4 +10,5 @@ This assignment is a responsive personal portfolio built using HTML, CSS, and Ja
 
 # AI Usage Short Summary
 Chatgpt was used to help assist in CSS debugging styling issues, as well as Javascript implementation of dark and light mode toggle and time-based greeting alert. All AI-generated suggestions were reviewed and modified based on my understanding and requirements.
+
 For more details, check doc/ai-usage-report.md.

@@ -5,7 +5,9 @@ This assignment is a responsive personal portfolio built using HTML, CSS, and Ja
 
 # How to run the project
 1- Clone the repository into VS code.
+
 2- Open the folder.
+
 3- Open and run index.html in a browser.
 
 # AI Usage Short Summary

@@ -50,10 +50,10 @@ assignment-1/
 # Javascirpt Code Explaination
 
 code for light and dark mode toggle:
-function toggleTheme(){
+
+    function toggleTheme(){
     //refers to the body element
     const body = document.body;
-
     //refers to the button in the nav section
     const buttonSymbol = document.getElementById("buttonTheme");
 
@@ -70,12 +70,12 @@ function toggleTheme(){
 }
 
 code for greeting system:
-function greetingMessage(){
+   
+    function greetingMessage(){
     //alert message shows greeting once every session
     if(sessionStorage.getItem("greetingsDone")) {
         return;
     }
-    
     //variables to store the current hour and message for the greetings
     const currentHour = (new Date()).getHours();
     let message = "";

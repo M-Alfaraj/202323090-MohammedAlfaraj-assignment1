@@ -238,7 +238,7 @@ button:hover {
 /*Responsive Layout*/
 @media (min-width: 700px) {
 
-    /*Skills styles*/
+    /*Skills section styles*/
     .skillsContainer {
         flex-direction: row;
         justify-content: space-between;
@@ -248,7 +248,7 @@ button:hover {
         flex: 1;
     }
 
-    /*Project styles*/
+    /*Project section styles*/
     #projects div{
         display: flex;
         flex-wrap: wrap;

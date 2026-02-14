@@ -98,8 +98,12 @@ code for greeting system:
     alert(message)
 
     //marks as true to make sure that the message is not shown more than once
-    sessionStorage.setItem("greetingsDone", "true")
-}
+    sessionStorage.setItem("greetingsDone", "true") }
 
-//runs the greetingMessage function when the page is loaded.
-window.addEventListener("DOMContentLoaded",greetingMessage)
+    //runs the greetingMessage function when the page is loaded.
+    window.addEventListener("DOMContentLoaded",greetingMessage)
+
+#Learning Outcomes
+I have improved my understanding in both CSS and Javascript by creating this portfolio assignment and with the assistance of chatGPT, I was able to create a webpage with helpful funcationalities and a good design that is easy for users to read and navigate.
+    
+

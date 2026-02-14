@@ -15,17 +15,29 @@ This assignment is about creating a personal portfolio webpage showcasing inform
 # The structure of the repositary:
 
 assignment-1/
+
 ├── README.md
+
 ├── index.html
+
 ├── css/
+
 │   └── styles.css
+
 ├── js/
+
 │   └── script.js
+
 ├── assets/
+
 │   └── images/
+
 ├── docs/
+
 │   ├── ai-usage-report.md
+
 │   └── technical-documentation.md
+
 └── .gitignore
 
 # Features and Functionalities
